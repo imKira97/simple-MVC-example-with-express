@@ -4,6 +4,7 @@ const path=require('path');
 const p=path.join(path.dirname(require.main.filename),
     'data',
     'products.json');
+    
 
 const getProductsFromFile=(cb)=>{
     
